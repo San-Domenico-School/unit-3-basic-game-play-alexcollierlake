@@ -22,8 +22,8 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         startDelay = 2.0f;
-        spawnInterval = 1.5f;
-        spawnRange = 35.0f;
+        spawnInterval = 3.0f;
+        spawnRange = 13.0f;
 
         InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
     }
